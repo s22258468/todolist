@@ -1,14 +1,8 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @todo_list.title %>
-</p>
+<h2 class="todo_list_title"><%= @todo_list.title %></h2>
+<p class="todo_list_sub_title"><%= @todo_list.discription%></p>
 
-<p>
-  <strong>Discription:</strong>
-  <%= @todo_list.discription %>
-</p>
 
 <div id="todo_items_wrapper">
 
@@ -20,6 +14,7 @@
 	</div>
 </div>
 
-
+<div class="links">
 <%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
 <%= link_to 'Back', todo_lists_path %>
+</div>
