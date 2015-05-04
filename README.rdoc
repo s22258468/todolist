@@ -1,1 +1,1 @@
-https://aqueous-sands-9139.herokuapp.com/todo_lists/1
+https://aqueous-sands-9139.herokuapp.com/todo_lists
